@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    
+   
+
+    
+    <!-- 基本字号 -->
+    <dimen name="basetextseiz_l">20sp</dimen>
+    
+    <!-- topbar -->
+    <dimen name="topbar_high">40dp</dimen>
+    <dimen name="topbar_btnback">25dp</dimen>
+   	<dimen name="topbar_btnback_m_l">10dp</dimen>
+ 
+   	<!--  注册 -->
+	
+    <dimen name="register_liner_h">46dp</dimen>
+    <dimen name="register_liner_l_b">0dp</dimen>
+    <dimen name="register_img">30dp</dimen>
+    <dimen name="register_img_m_l">10dp</dimen>
+    <dimen name="register_btnline_m">15dp</dimen>
+    <dimen name="register_btn_m">5dp</dimen>
+    <dimen name="register_user_protocol_m_l">15dp</dimen>
+    
+    
+    <!-- 登陆 -->
+</resources>

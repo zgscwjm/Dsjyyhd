@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/mytopbar"
+        android:name="com.lsfb.dsjc.fragment.Topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_high" />
+
+    <!-- 请输入手机号 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_liner_h"
+        android:background="@drawable/bg_register"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/register_liner_l_b" >
+
+        <ImageView
+            android:layout_width="@dimen/register_img"
+            android:layout_height="@dimen/register_img"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/register_img_m_l"
+            android:background="@color/mnull"
+            android:contentDescription="@string/inputmobilephone"
+            android:src="@drawable/img_phone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/white"
+            android:hint="@string/inputmobilephone"
+            android:textColor="@color/mtextcolor1"
+            android:textColorHint="@color/mtextcolor1" />
+    </LinearLayout>
+
+    <!-- 请输入密码 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_liner_h"
+        android:background="@drawable/bg_register"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/register_liner_l_b" >
+
+        <ImageView
+            android:layout_width="@dimen/register_img"
+            android:layout_height="@dimen/register_img"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/register_img_m_l"
+            android:background="@color/mnull"
+            android:contentDescription="@string/inputmobilephone"
+            android:src="@drawable/img_password1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/white"
+            android:hint="@string/inputpassword"
+            android:textColor="@color/mtextcolor1"
+            android:textColorHint="@color/mtextcolor1" />
+    </LinearLayout>
+
+    <!-- 登陆 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/register_btnline_m" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/register_btn_m"
+            android:background="@drawable/bluebtn"
+            android:text="@string/btn_login"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/basetextseiz_l" />
+    </LinearLayout>
+
+    <!-- 忘记密码,注册账户 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/register_user_protocol_m_l"
+        android:layout_marginEnd="@dimen/register_user_protocol_m_l" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/btn_login_repassword" 
+            android:textColor="@color/mblue"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             android:gravity="end"
+            android:text="@string/btn_login_register"
+            android:textColor="@color/mblue" />
+    </LinearLayout>
+
+</LinearLayout>
