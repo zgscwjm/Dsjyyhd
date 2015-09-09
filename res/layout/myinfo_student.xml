@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 学生姓名 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/stuname" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 电话 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/phone" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 所在学校 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/myinfo_school" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 所在年级 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/myinfo_grade" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 所在班级 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/myinfo_class" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 性别 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/sex" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 年龄 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/year" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 成绩情况 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/chengji" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 住址 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/address" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+
+        <!-- 学生爱好 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/hobby" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

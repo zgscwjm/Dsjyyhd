@@ -8,15 +8,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Topbar extends Fragment{
+public class Topbar extends Fragment {
 
-	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
+
+		View view=inflater.inflate(R.layout.mtopbar, container, false);
 		
-return		inflater.inflate(R.layout.mtopbar, container, false);
-		
+		return view;
+
 	}
 }

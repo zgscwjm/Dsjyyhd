@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+          <!-- 姓名 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/parname" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+        
+        <!-- 电话 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/phone" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+    
+        
+        
+        <!-- qq 号 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/qqnumber" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+      
+        
+        
+        <!-- 电子邮箱 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/paremail" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+         <!-- 电话 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/phone" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+      
+        
+        <!-- 微信号 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/weixin" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+        
+        
+        
+        <!-- 职业 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/profession" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+        
+        
+        
+        <!-- 对孩子期望 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/forchiexpec" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+      
+        
+        
+        <!-- 对孩子描述 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/forchidsc" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+     
+        
+        
+        <!-- 培训开支 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/myinfo_line_h"
+            android:background="@drawable/bg_register"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/myinfo_line_text_w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/myinfo_line_text_m_l"
+                android:text="@string/expenditure" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/myinfo_arrow"
+                android:layout_height="@dimen/myinfo_arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/myinfo_arrow"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrow_gray" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

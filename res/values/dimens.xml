@@ -11,6 +11,11 @@
     <!-- 基本字号 -->
     <dimen name="basetextseiz_l">20sp</dimen>
     
+    
+    
+    <!-- 头像 -->
+    <dimen name="headimg">60dp</dimen>
+    
     <!-- topbar -->
     <dimen name="topbar_high">40dp</dimen>
     <dimen name="topbar_btnback">25dp</dimen>
@@ -28,4 +33,26 @@
     
     
     <!-- 登陆 -->
+    
+    
+    <!-- 个人中心 -->
+    <dimen name="personalcenter_lin_p">10dp</dimen>
+    <dimen name="personalcenter_lin_m_s">10dp</dimen>
+    <dimen name="personalcenter2_lin_h">50dp</dimen>
+    <dimen name="personalcenter2_m_t">15dp</dimen>
+    <dimen name="personalcenter2_lin_p">10dp</dimen>
+    <dimen name="personalcenter2_lin_img_m">5dp</dimen>
+    
+    
+    <!-- 我的资料 -->
+    
+    <dimen name="myinfo_line_h">44dp</dimen>
+    <dimen name="myinfo_line_text_m_l">5dp</dimen>
+    <dimen name="myinfo_line_text_w">100dp</dimen>
+    <dimen name="myinfo_arrow">10dp</dimen>
+    
+    
+    <!-- 钱包 -->
+    
+    <dimen name="wallet_top_h">80dp</dimen>
 </resources>

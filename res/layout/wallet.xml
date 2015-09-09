@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/mytopbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_high"
+        class="com.lsfb.dsjc.fragment.Topbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wallet_top_h"
+        android:background="@color/mblue"
+        android:orientation="horizontal" >
+
+        <!-- 账号余额 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wallet_balance_of_account"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="50000"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <!-- 操作按钮(提现,充值) -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_gravity="center_vertical"
+                android:layout_width="52dp"
+                android:layout_height="26dp"
+                android:background="@drawable/bluebtn2" 
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:text="提现"/>
+            <Button
+                android:layout_gravity="center_vertical"
+                android:layout_width="50dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

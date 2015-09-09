@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mbackground"
+    android:orientation="vertical" >
+
+    <!-- topbar -->
+
+    <fragment
+        android:id="@+id/mytopbar"
+        android:name="com.lsfb.dsjc.fragment.Topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_high" />
+
+    <!-- 头像,用户名,手机号,资料设置 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/personalcenter_lin_p" >
+
+        <!-- 头像 -->
+
+        <ImageView
+            android:layout_width="@dimen/headimg"
+            android:layout_height="@dimen/headimg"
+            android:scaleType="fitXY"
+            android:src="@drawable/defhead" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <!-- 用户名,手机号 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/personalcenter_lin_m_s"
+                android:layout_weight="2"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="测试用户" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12345678901"
+                    android:textColor="@color/mtextcolor1" />
+            </LinearLayout>
+
+            <!-- 资料设置 -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/inforset" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 钱包 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personalcenter2_lin_h"
+        android:layout_marginTop="@dimen/personalcenter2_m_t"
+        android:background="@drawable/bg_register"
+        android:padding="@dimen/personalcenter2_lin_p" >
+
+        <ImageView
+            android:layout_width="@dimen/register_img"
+            android:layout_height="@dimen/register_img"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/personalcenter2_lin_img_m"
+            android:contentDescription="@string/inputmobilephone"
+            android:src="@drawable/img_qianbao" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/wallet" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="5.00元 >"
+            android:textColor="@color/mtextcolor1" />
+    </LinearLayout>
+
+    <!-- 我的课程 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personalcenter2_lin_h"
+        android:background="@drawable/bg_register"
+        android:padding="@dimen/personalcenter2_lin_p" >
+
+        <ImageView
+            android:layout_width="@dimen/register_img"
+            android:layout_height="@dimen/register_img"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/personalcenter2_lin_img_m"
+            android:contentDescription="@string/inputmobilephone"
+            android:src="@drawable/img_myclass" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/p_myclass" />
+    </LinearLayout>
+
+    <!-- 优惠劵 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personalcenter2_lin_h"
+        android:background="@drawable/bg_register"
+        android:padding="@dimen/personalcenter2_lin_p" >
+
+        <ImageView
+            android:layout_width="@dimen/register_img"
+            android:layout_height="@dimen/register_img"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/personalcenter2_lin_img_m"
+            android:contentDescription="@string/inputmobilephone"
+            android:src="@drawable/img_preferential" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/p_myclass" />
+    </LinearLayout>
+
+    <!-- 推荐码 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/personalcenter2_m_t"
+        android:background="@drawable/bg_register"
+        android:orientation="vertical"
+        android:padding="@dimen/personalcenter2_lin_p" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/register_img"
+                android:layout_height="@dimen/register_img"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/personalcenter2_lin_img_m"
+                android:contentDescription="@string/inputmobilephone"
+                android:src="@drawable/img_invitcode" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/p_myclass" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/personalcenter2_lin_p"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recommnum"
+                android:textColor="@color/mtextcolor1"
+                android:textSize="12sp"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5人"
+                android:textColor="@color/mtextcolor1"
+                android:textSize="12sp" 
+                android:layout_marginStart="@dimen/personalcenter2_lin_img_m"
+                android:layout_marginEnd="@dimen/personalcenter2_lin_img_m"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bonus"
+                android:textColor="@color/mtextcolor1"
+                android:textSize="12sp" 
+                android:layout_marginStart="@dimen/personalcenter2_lin_img_m"
+                />
+
+            <TextView
+                android:layout_marginStart="@dimen/personalcenter2_lin_img_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="253.00元"
+                android:textColor="@color/mtextcolor1"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

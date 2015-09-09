@@ -29,4 +29,40 @@
 	<string name="btn_next">下一步</string>
 	<string name="inputnewpassword">请输入新密码</string>
 	<string name="btn_okrepassword">确认修改</string>
+	
+
+	<!-- 个人中心 -->
+	<string name="inforset">资料设置 &gt;</string>
+	<string name="wallet">钱包</string>
+	<string name="p_myclass">我的课程</string>
+	<string name="preferential">优惠劵</string>
+	<string name="p_invitecode">推荐码</string>
+	<string name="recommnum">推荐人数:</string>
+	<string name="bonus">总奖金:</string>
+	
+	
+	<!-- 个人资料 -->
+	<string name="stuname">学生姓名</string>
+	<string name="phone">电&#160;&#160;&#160;&#160;&#160;&#160;&#160;话</string>
+	<string name="myinfo_school">所在学校</string>
+	<string name="myinfo_grade">所在年级</string>
+	<string name="myinfo_class">所在班级</string>
+	<string name="sex">性&#160;&#160;&#160;&#160;&#160;&#160;&#160;别</string>
+	<string name="year">年&#160;&#160;&#160;&#160;&#160;&#160;&#160;龄</string>
+	<string name="chengji">成绩情况</string>
+	<string name="address">住&#160;&#160;&#160;&#160;&#160;&#160;&#160;址</string>
+	<string name="hobby">学生爱好</string>
+	<string name="parname">姓&#160;&#160;&#160;&#160;&#160;&#160;&#160;名</string>
+	<string name="qqnumber">QQ&#160;&#160;&#160;&#160;&#160;&#160;&#160;号</string>
+	<string name="paremail">电子邮箱</string>
+	<string name="weixin">微 信 号</string>
+	<string name="profession">职&#160;&#160;&#160;&#160;&#160;&#160;&#160;业</string>
+	<string name="forchiexpec">对孩子期望</string>
+	<string name="forchidsc">对孩子描述</string>
+	<string name="expenditure">培训开支</string>
+	
+	
+	<!-- 钱包 -->
+	
+	<string name="wallet_balance_of_account">账号余额(元)</string>
 </resources>
